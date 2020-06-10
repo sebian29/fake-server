@@ -1,0 +1,44 @@
+Default Settings Data
+
+organizations
+    => telkomdemo
+        5edf47d4f5599178cb7839b4
+    => maxsoldemo
+        5ee05323593aedab38de84f5
+
+app views
+    => telkomdemo
+        5ee06c87752d5bc22e29dd1f
+    => maxsoldemo
+        5ee06dfc5a948f0f2ab9b21b
+
+groups
+    => telkomdemo
+        => id
+            => Jakarta Utara => 5ee08d91939c3a88bf440474
+            => Jakarta Barat => 5ee08d91939c3a88bf440474
+            => Jakarta Timur => 5ee08d9150f66877e94dcb81
+            => Jakarta Selatan => 5ee08d911a3335620d418122
+            => Jakarta Pusat => 5ee08d911f501a350be23817
+        => flow
+            5ee07a16599a3c4b98f5c0ca
+            5ee07a987c2088b8f6f35f61
+            5ee07b02a25fee492cc5d5d7
+    => maxsoldemo
+        => id
+            => Jakarta Utara => 5ee08e2c0c182df8f44a696e
+            => Jakarta Barat => 5ee08e2c92587de2a078eec0
+            => Jakarta Timur => 5ee08e2cc0048611dc5fbcf6
+            => Jakarta Selatan => 5ee08e2c2f6bc5e74c7a41e9
+            => Jakarta Pusat => 5ee08e2c42996c336d9ea46a
+        => flow
+            5ee07b851a9387aa247ca6e1
+            5ee07e6dcbdb4f52d8e703b9
+            5ee07e794b634434a95135bc
+
+locations
+    => telkomdemo
+        5ee05c50215ffe766df777d2
+    => maxsoldemo
+        5ee062db9d717bfce34fc781
+
