@@ -83,10 +83,10 @@
                                     "height": "56",
                                     "gravity": "CENTER_VERTICAL",
                                     "background": "#02a8f3",
-                                    "paddingTop": NumberInt("14"),
-                                    "paddingBot": NumberInt("14"),
-                                    "paddingRight": NumberInt("16"),
-                                    "paddingLeft": NumberInt("16"),
+                                    "paddingTop": 14,
+                                    "paddingBot": 14,
+                                    "paddingRight": 16,
+                                    "paddingLeft": 16,
                                     "child": [
                                         {
                                             "type": "IMAGE",
@@ -94,7 +94,7 @@
                                             "width": "36",
                                             "height": "36",
                                             "name": "btnBackDeliveryDetail",
-                                            "textSize": NumberInt("12"),
+                                            "textSize": 12,
                                             "textColor": "#000000",
                                             "textStyle": "bold",
                                             "onClick": [
@@ -110,10 +110,10 @@
                                             "textStyle": "semiBold",
                                             "height": "56",
                                             "name": "titleDeliveryDetail",
-                                            "textSize": NumberInt("20"),
+                                            "textSize": 20,
                                             "textColor": "#FFFFFF",
-                                            "marginLeft": NumberInt("20"),
-                                            "marginBot": NumberInt("2")
+                                            "marginLeft": 20,
+                                            "marginBot": 2
                                         },
                                         {
                                             "type": "TEXT",
@@ -121,7 +121,7 @@
                                             "width": "WRAP_CONTENT",
                                             "height": "WRAP_CONTENT",
                                             "name": "btnDoneDeliveryDetail",
-                                            "textSize": NumberInt("12"),
+                                            "textSize": 12,
                                             "textColor": "#ffffff",
                                             "textStyle": "bold",
                                             "onClick": [
@@ -143,7 +143,7 @@
                                             "height": "WRAP_CONTENT",
                                             "name": "btnNextPage",
                                             "visibility": "gone",
-                                            "textSize": NumberInt("12"),
+                                            "textSize": 12,
                                             "textColor": "#ffffff",
                                             "textStyle": "bold",
                                             "onClick": [
@@ -162,10 +162,10 @@
                                     "height": "WRAP_CONTENT",
                                     "gravity": "CENTER_VERTICAL",
                                     "background": "#ffffff",
-                                    "paddingTop": NumberInt("16"),
-                                    "paddingBot": NumberInt("16"),
-                                    "paddingRight": NumberInt("16"),
-                                    "paddingLeft": NumberInt("16"),
+                                    "paddingTop": 16,
+                                    "paddingBot": 16,
+                                    "paddingRight": 16,
+                                    "paddingLeft": 16,
                                     "child": [
                                         {
                                             "name": "txtNameDeliveryDetail",
@@ -178,7 +178,7 @@
                                             "inputLabel": "Receiver Name",
                                             "label": "$task/taskTitle",
                                             "textColor": "#455a64",
-                                            "textSize": NumberInt("16"),
+                                            "textSize": 16,
                                             "textStyle": "bold"
                                         },
                                         {
@@ -194,7 +194,7 @@
                                             "name": "btnCallDeliveryDetail",
                                             "textColor": "#000000",
                                             "textStyle": "bold",
-                                            "marginLeft": NumberInt("8"),
+                                            "marginLeft": 8,
                                             "onClick": [
                                                 {
                                                     "make": "CALL",
@@ -212,16 +212,16 @@
                                     "height": "WRAP_CONTENT",
                                     "background": "#ffffff",
                                     "gravity": "center",
-                                    "paddingTop": NumberInt("16"),
-                                    "paddingBot": NumberInt("16"),
-                                    "paddingRight": NumberInt("16"),
-                                    "paddingLeft": NumberInt("16"),
-                                    "marginTop": NumberInt("2"),
+                                    "paddingTop": 16,
+                                    "paddingBot": 16,
+                                    "paddingRight": 16,
+                                    "paddingLeft": 16,
+                                    "marginTop": 2,
                                     "child": [
                                         {
                                             "name": "txtAddressDeliveryDetail",
                                             "type": "TEXT",
-                                            "textSize": NumberInt("14"),
+                                            "textSize": 14,
                                             "width": "FILL_PARENT",
                                             "height": "WRAP_CONTENT",
                                             "inputNewTask": true,
@@ -237,7 +237,7 @@
                                             "width": "36",
                                             "height": "36",
                                             "name": "btnLocationDeliveryDetail",
-                                            "marginLeft": NumberInt("8"),
+                                            "marginLeft": 8,
                                             "onClick": [
                                                 {
                                                     "make": "OPEN_MAP",
@@ -250,16 +250,16 @@
                                 },
                                 {
                                     "type": "TEXT",
-                                    "textSize": NumberInt("14"),
+                                    "textSize": 14,
                                     "width": "MATCH_PARENT",
                                     "height": "WRAP_CONTENT",
                                     "label": "Delivery Information",
                                     "textColor": "#455a64",
                                     "textStyle": "bold",
-                                    "paddingTop": NumberInt("16"),
-                                    "paddingBot": NumberInt("8"),
-                                    "paddingRight": NumberInt("16"),
-                                    "paddingLeft": NumberInt("16")
+                                    "paddingTop": 16,
+                                    "paddingBot": 8,
+                                    "paddingRight": 16,
+                                    "paddingLeft": 16
                                 },
                                 {
                                     "type": "LAYOUT_LINEAR_HORIZONTAL",
@@ -267,11 +267,11 @@
                                     "width": "MATCH_PARENT",
                                     "height": "56",
                                     "background": "#ffffff",
-                                    "paddingTop": NumberInt("14"),
-                                    "paddingBot": NumberInt("14"),
-                                    "paddingRight": NumberInt("16"),
-                                    "paddingLeft": NumberInt("16"),
-                                    "marginBot": NumberInt("1"),
+                                    "paddingTop": 14,
+                                    "paddingBot": 14,
+                                    "paddingRight": 16,
+                                    "paddingLeft": 16,
+                                    "marginBot": 1,
                                     "child": [
                                         {
                                             "type": "TEXT",
@@ -279,7 +279,7 @@
                                             "width": "FILL_PARENT",
                                             "height": "MATCH_PARENT",
                                             "name": "txtTitleServiceDeliveryDetail",
-                                            "textSize": NumberInt("16"),
+                                            "textSize": 16,
                                             "textColor": "#455a64"
                                         },
                                         {
@@ -292,7 +292,7 @@
                                             "requiredOnNewTask": true,
                                             "dataSource": "$task/UserVar/service",
                                             "inputLabel": "Service",
-                                            "textSize": NumberInt("16"),
+                                            "textSize": 16,
                                             "textColor": "#455a64"
                                         }
                                     ]
@@ -303,11 +303,11 @@
                                     "width": "MATCH_PARENT",
                                     "height": "56",
                                     "background": "#ffffff",
-                                    "paddingTop": NumberInt("14"),
-                                    "paddingBot": NumberInt("14"),
-                                    "paddingRight": NumberInt("16"),
-                                    "paddingLeft": NumberInt("16"),
-                                    "marginBot": NumberInt("1"),
+                                    "paddingTop": 14,
+                                    "paddingBot": 14,
+                                    "paddingRight": 16,
+                                    "paddingLeft": 16,
+                                    "marginBot": 1,
                                     "child": [
                                         {
                                             "type": "TEXT",
@@ -315,7 +315,7 @@
                                             "width": "FILL_PARENT",
                                             "height": "MATCH_PARENT",
                                             "name": "txtProductNameID",
-                                            "textSize": NumberInt("16"),
+                                            "textSize": 16,
                                             "textColor": "#455a64"
                                         },
                                         {
@@ -328,7 +328,7 @@
                                             "requiredOnNewTask": true,
                                             "dataSource": "$task/UserVar/ProductID",
                                             "inputLabel": "Product ID",
-                                            "textSize": NumberInt("16"),
+                                            "textSize": 16,
                                             "textColor": "#455a64"
                                         }
                                     ]
@@ -339,11 +339,11 @@
                                     "width": "MATCH_PARENT",
                                     "height": "56",
                                     "background": "#ffffff",
-                                    "paddingTop": NumberInt("14"),
-                                    "paddingBot": NumberInt("14"),
-                                    "paddingRight": NumberInt("16"),
-                                    "paddingLeft": NumberInt("16"),
-                                    "marginBot": NumberInt("1"),
+                                    "paddingTop": 14,
+                                    "paddingBot": 14,
+                                    "paddingRight": 16,
+                                    "paddingLeft": 16,
+                                    "marginBot": 1,
                                     "child": [
                                         {
                                             "type": "TEXT",
@@ -351,7 +351,7 @@
                                             "width": "FILL_PARENT",
                                             "height": "MATCH_PARENT",
                                             "name": "txtQuantityCustomDetail",
-                                            "textSize": NumberInt("16"),
+                                            "textSize": 16,
                                             "textColor": "#455a64"
                                         },
                                         {
@@ -364,7 +364,7 @@
                                             "requiredOnNewTask": true,
                                             "dataSource": "$task/UserVar/Quantity",
                                             "inputLabel": "Quantity",
-                                            "textSize": NumberInt("16"),
+                                            "textSize": 16,
                                             "textColor": "#455a64"
                                         }
                                     ]
@@ -382,10 +382,10 @@
                                     "inputNewTask": false,
                                     "dataSource": "$task/UserVar/ProductName",
                                     "inputLabel": "Product Name",
-                                    "paddingBot": NumberInt("16"),
-                                    "paddingTop": NumberInt("16"),
-                                    "paddingRight": NumberInt("16"),
-                                    "paddingLeft": NumberInt("16")
+                                    "paddingBot": 16,
+                                    "paddingTop": 16,
+                                    "paddingRight": 16,
+                                    "paddingLeft": 16
                                 }
                             ]
                         },
@@ -548,10 +548,10 @@
                                     "height": "56",
                                     "gravity": "CENTER_VERTICAL",
                                     "background": "#02a8f3",
-                                    "paddingTop": NumberInt("14"),
-                                    "paddingBot": NumberInt("14"),
-                                    "paddingRight": NumberInt("16"),
-                                    "paddingLeft": NumberInt("16"),
+                                    "paddingTop": 14,
+                                    "paddingBot": 14,
+                                    "paddingRight": 16,
+                                    "paddingLeft": 16,
                                     "child": [
                                         {
                                             "type": "IMAGE",
@@ -573,10 +573,10 @@
                                             "height": "56",
                                             "textStyle": "semiBold",
                                             "name": "txtTitleDeliveryProcess",
-                                            "textSize": NumberInt("20"),
+                                            "textSize": 20,
                                             "textColor": "#FFFFFF",
-                                            "marginLeft": NumberInt("20"),
-                                            "marginBot": NumberInt("2")
+                                            "marginLeft": 20,
+                                            "marginBot": 2
                                         },
                                         {
                                             "type": "TEXT",
@@ -585,7 +585,7 @@
                                             "height": "WRAP_CONTENT",
                                             "name": "btnBackToHome",
                                             "visibility": "gone",
-                                            "textSize": NumberInt("12"),
+                                            "textSize": 12,
                                             "textColor": "#ffffff",
                                             "textStyle": "bold",
                                             "conditions": [
@@ -762,11 +762,11 @@
                                             "width": "WRAP_CONTENT",
                                             "height": "MATCH_PARENT",
                                             "name": "txtNameDeliveryProcess",
-                                            "textSize": NumberInt("16"),
+                                            "textSize": 16,
                                             "textColor": "#455a64",
-                                            "marginLeft": NumberInt("16"),
-                                            "marginRight": NumberInt("16"),
-                                            "marginTop": NumberInt("16"),
+                                            "marginLeft": 16,
+                                            "marginRight": 16,
+                                            "marginTop": 16,
                                             "textStyle": "bold"
                                         },
                                         {
@@ -775,11 +775,11 @@
                                             "width": "WRAP_CONTENT",
                                             "height": "MATCH_PARENT",
                                             "name": "txtAWB",
-                                            "textSize": NumberInt("14"),
+                                            "textSize": 14,
                                             "textColor": "#455a64",
-                                            "marginLeft": NumberInt("16"),
-                                            "marginRight": NumberInt("16"),
-                                            "marginTop": NumberInt("8")
+                                            "marginLeft": 16,
+                                            "marginRight": 16,
+                                            "marginTop": 8
                                         },
                                         {
                                             "type": "TEXT",
@@ -787,11 +787,11 @@
                                             "width": "WRAP_CONTENT",
                                             "height": "MATCH_PARENT",
                                             "name": "txtAddressDeliveryProcess",
-                                            "textSize": NumberInt("14"),
+                                            "textSize": 14,
                                             "textColor": "#455a64",
-                                            "marginLeft": NumberInt("16"),
-                                            "marginRight": NumberInt("16"),
-                                            "marginTop": NumberInt("8")
+                                            "marginLeft": 16,
+                                            "marginRight": 16,
+                                            "marginTop": 8
                                         },
                                         {
                                             "type": "TEXT",
@@ -799,11 +799,11 @@
                                             "width": "WRAP_CONTENT",
                                             "height": "MATCH_PARENT",
                                             "name": "txtProductName",
-                                            "textSize": NumberInt("14"),
+                                            "textSize": 14,
                                             "textColor": "#455a64",
-                                            "marginLeft": NumberInt("16"),
-                                            "marginRight": NumberInt("16"),
-                                            "marginTop": NumberInt("8")
+                                            "marginLeft": 16,
+                                            "marginRight": 16,
+                                            "marginTop": 8
                                         },
                                         {
                                             "type": "TEXT",
@@ -811,26 +811,26 @@
                                             "width": "WRAP_CONTENT",
                                             "height": "MATCH_PARENT",
                                             "name": "txtQuantityCustom",
-                                            "textSize": NumberInt("14"),
+                                            "textSize": 14,
                                             "textColor": "#455a64",
-                                            "marginLeft": NumberInt("16"),
-                                            "marginRight": NumberInt("16"),
-                                            "marginTop": NumberInt("8")
+                                            "marginLeft": 16,
+                                            "marginRight": 16,
+                                            "marginTop": 8
                                         }
                                     ]
                                 },
                                 {
                                     "type": "TEXT",
-                                    "textSize": NumberInt("14"),
+                                    "textSize": 14,
                                     "width": "MATCH_PARENT",
                                     "height": "WRAP_CONTENT",
                                     "label": "Delivery Information",
                                     "textColor": "#455a64",
                                     "textStyle": "bold",
-                                    "paddingTop": NumberInt("16"),
-                                    "paddingBot": NumberInt("8"),
-                                    "paddingRight": NumberInt("16"),
-                                    "paddingLeft": NumberInt("16")
+                                    "paddingTop": 16,
+                                    "paddingBot": 8,
+                                    "paddingRight": 16,
+                                    "paddingLeft": 16
                                 },
                                 {
                                     "type": "COMBO_BOX",
@@ -839,10 +839,10 @@
                                     "label": "Delivery Status",
                                     "name": "cbStatusDeliveryProcess",
                                     "background": "#ffffff",
-                                    "paddingLeft": NumberInt("16"),
-                                    "paddingRight": NumberInt("16"),
-                                    "paddingTop": NumberInt("16"),
-                                    "paddingBot": NumberInt("16"),
+                                    "paddingLeft": 16,
+                                    "paddingRight": 16,
+                                    "paddingTop": 16,
+                                    "paddingBot": 16,
                                     "inputNewTask": false,
                                     "dataSource": "$task/UserVar/taskStatus",
                                     "inputLabel": "Delivery Status",
@@ -850,7 +850,7 @@
                                         {
                                             "label": "Success",
                                             "value": "COLF01",
-                                            "isDefault": NumberInt("1"),
+                                            "isDefault": 1,
                                             "conditions": [
                                                 {
                                                     "from": "$nameOfReceiver",
@@ -897,10 +897,10 @@
                                     "label": "Receiver",
                                     "name": "cbReceiverDelivery",
                                     "background": "#ffffff",
-                                    "paddingLeft": NumberInt("16"),
-                                    "paddingRight": NumberInt("16"),
-                                    "paddingTop": NumberInt("16"),
-                                    "paddingBot": NumberInt("16"),
+                                    "paddingLeft": 16,
+                                    "paddingRight": 16,
+                                    "paddingTop": 16,
+                                    "paddingBot": 16,
                                     "inputNewTask": false,
                                     "dataSource": "$task/UserVar/taskDetailStatus",
                                     "inputLabel": "Delivery Status Detail",
@@ -908,7 +908,7 @@
                                         {
                                             "label": "YANG BERSANGKUTAN",
                                             "value": "D01",
-                                            "isDefault": NumberInt("1"),
+                                            "isDefault": 1,
                                             "conditions": [
                                                 {
                                                     "from": "$signatureDeliveryProcess",
@@ -1059,10 +1059,10 @@
                                     "label": "Reason",
                                     "name": "cbReasonDelivery",
                                     "background": "#ffffff",
-                                    "paddingLeft": NumberInt("16"),
-                                    "paddingRight": NumberInt("16"),
-                                    "paddingTop": NumberInt("16"),
-                                    "paddingBot": NumberInt("16"),
+                                    "paddingLeft": 16,
+                                    "paddingRight": 16,
+                                    "paddingTop": 16,
+                                    "paddingBot": 16,
                                     "inputNewTask": false,
                                     "dataSource": "$task/UserVar/taskDetailStatus",
                                     "inputLabel": "Delivery Status Detail",
@@ -1070,7 +1070,7 @@
                                         {
                                             "label": "TRANSFER TO ANOTHER COURIER",
                                             "value": "BY",
-                                            "isDefault": NumberInt("1")
+                                            "isDefault": 1
                                         },
                                         {
                                             "label": "RETURN TO SHIPPER / RETURN TO RECEIVER",
@@ -1170,23 +1170,23 @@
                                     "inputNewTask": false,
                                     "dataSource": "$task/UserVar/nameOfReceiver",
                                     "inputLabel": "Receiver Name",
-                                    "paddingBot": NumberInt("16"),
-                                    "paddingTop": NumberInt("16"),
-                                    "paddingRight": NumberInt("16"),
-                                    "paddingLeft": NumberInt("16")
+                                    "paddingBot": 16,
+                                    "paddingTop": 16,
+                                    "paddingRight": 16,
+                                    "paddingLeft": 16
                                 },
                                 {
                                     "type": "TEXT",
-                                    "textSize": NumberInt("14"),
+                                    "textSize": 14,
                                     "width": "MATCH_PARENT",
                                     "height": "WRAP_CONTENT",
                                     "label": "Proof of Delivery",
                                     "textColor": "#455a64",
                                     "textStyle": "bold",
-                                    "paddingTop": NumberInt("16"),
-                                    "paddingBot": NumberInt("8"),
-                                    "paddingRight": NumberInt("16"),
-                                    "paddingLeft": NumberInt("16")
+                                    "paddingTop": 16,
+                                    "paddingBot": 8,
+                                    "paddingRight": 16,
+                                    "paddingLeft": 16
                                 },
                                 {
                                     "name": "signatureDeliveryProcess",
@@ -1242,10 +1242,10 @@
                                     "height": "56",
                                     "gravity": "CENTER_VERTICAL",
                                     "background": "#02a8f3",
-                                    "paddingTop": NumberInt("14"),
-                                    "paddingBot": NumberInt("14"),
-                                    "paddingRight": NumberInt("16"),
-                                    "paddingLeft": NumberInt("16"),
+                                    "paddingTop": 14,
+                                    "paddingBot": 14,
+                                    "paddingRight": 16,
+                                    "paddingLeft": 16,
                                     "child": [
                                         {
                                             "type": "IMAGE",
@@ -1264,10 +1264,10 @@
                                             "label": "Load Vehicle Details",
                                             "width": "FILL_PARENT",
                                             "height": "WRAP_CONTENT",
-                                            "textSize": NumberInt("20"),
+                                            "textSize": 20,
                                             "textColor": "#FFFFFF",
-                                            "marginLeft": NumberInt("20"),
-                                            "marginBot": NumberInt("2")
+                                            "marginLeft": 20,
+                                            "marginBot": 2
                                         },
                                         {
                                             "type": "TEXT",
@@ -1275,7 +1275,7 @@
                                             "width": "WRAP_CONTENT",
                                             "height": "WRAP_CONTENT",
                                             "name": "btnStart",
-                                            "textSize": NumberInt("12"),
+                                            "textSize": 12,
                                             "textColor": "#ffffff",
                                             "textStyle": "bold",
                                             "onClick": [
@@ -1296,7 +1296,7 @@
                                             "width": "WRAP_CONTENT",
                                             "height": "WRAP_CONTENT",
                                             "name": "btnNext",
-                                            "textSize": NumberInt("12"),
+                                            "textSize": 12,
                                             "textColor": "#ffffff",
                                             "textStyle": "bold",
                                             "visibility": "gone",
@@ -1321,27 +1321,27 @@
                                             "width": "MATCH_PARENT",
                                             "height": "WRAP_CONTENT",
                                             "background": "#ffffff",
-                                            "paddingLeft": NumberInt("16"),
-                                            "paddingRight": NumberInt("16"),
-                                            "paddingTop": NumberInt("8"),
-                                            "paddingBot": NumberInt("8"),
+                                            "paddingLeft": 16,
+                                            "paddingRight": 16,
+                                            "paddingTop": 8,
+                                            "paddingBot": 8,
                                             "gravity": "center",
-                                            "marginBot": NumberInt("2"),
+                                            "marginBot": 2,
                                             "child": [
                                                 {
                                                     "type": "TEXT",
-                                                    "textSize": NumberInt("16"),
+                                                    "textSize": 16,
                                                     "name": "listItemTitle",
                                                     "width": "MATCH_PARENT",
                                                     "height": "WRAP_CONTENT",
                                                     "label": "$listItemTitle",
                                                     "textColor": "#455a64",
                                                     "textStyle": "bold",
-                                                    "marginBot": NumberInt("8")
+                                                    "marginBot": 8
                                                 },
                                                 {
                                                     "type": "TEXT",
-                                                    "textSize": NumberInt("14"),
+                                                    "textSize": 14,
                                                     "name": "listItemSubTitle",
                                                     "width": "MATCH_PARENT",
                                                     "height": "WRAP_CONTENT",
@@ -1350,7 +1350,7 @@
                                                 },
                                                 {
                                                     "type": "TEXT",
-                                                    "textSize": NumberInt("14"),
+                                                    "textSize": 14,
                                                     "name": "listItemContent",
                                                     "width": "MATCH_PARENT",
                                                     "height": "WRAP_CONTENT",
@@ -1373,25 +1373,25 @@
                                             "width": "MATCH_PARENT",
                                             "height": "WRAP_CONTENT",
                                             "background": "#ffffff",
-                                            "paddingLeft": NumberInt("16"),
-                                            "paddingRight": NumberInt("16"),
-                                            "paddingTop": NumberInt("8"),
-                                            "paddingBot": NumberInt("8"),
+                                            "paddingLeft": 16,
+                                            "paddingRight": 16,
+                                            "paddingTop": 8,
+                                            "paddingBot": 8,
                                             "gravity": "CENTER_VERTICAL",
-                                            "marginBot": NumberInt("2"),
+                                            "marginBot": 2,
                                             "child": [
                                                 {
                                                     "type": "VIEW",
-                                                    "width": NumberInt("50"),
-                                                    "height": NumberInt("30"),
-                                                    "marginRight": NumberInt("10"),
+                                                    "width": 50,
+                                                    "height": 30,
+                                                    "marginRight": 10,
                                                     "background": "$color",
                                                     "gravity": "LEFT",
                                                     "name": "color"
                                                 },
                                                 {
                                                     "type": "TEXT",
-                                                    "textSize": NumberInt("14"),
+                                                    "textSize": 14,
                                                     "name": "sku",
                                                     "width": "FILL_PARENT",
                                                     "height": "WRAP_CONTENT",
@@ -1401,14 +1401,14 @@
                                                 },
                                                 {
                                                     "type": "TEXT",
-                                                    "textSize": NumberInt("14"),
+                                                    "textSize": 14,
                                                     "name": "qty",
                                                     "width": "WRAP_CONTENT",
                                                     "height": "WRAP_CONTENT",
                                                     "label": "${qty} pcs",
                                                     "textColor": "#455a64",
                                                     "gravity": "RIGHT",
-                                                    "marginRight": NumberInt("5")
+                                                    "marginRight": 5
                                                 }
                                             ]
                                         }
@@ -1445,10 +1445,10 @@
                                     "height": "56",
                                     "gravity": "CENTER_VERTICAL",
                                     "background": "#02a8f3",
-                                    "paddingTop": NumberInt("14"),
-                                    "paddingBot": NumberInt("14"),
-                                    "paddingRight": NumberInt("16"),
-                                    "paddingLeft": NumberInt("16"),
+                                    "paddingTop": 14,
+                                    "paddingBot": 14,
+                                    "paddingRight": 16,
+                                    "paddingLeft": 16,
                                     "child": [
                                         {
                                             "type": "IMAGE",
@@ -1467,10 +1467,10 @@
                                             "label": "Load Vehicle Details",
                                             "width": "FILL_PARENT",
                                             "height": "WRAP_CONTENT",
-                                            "textSize": NumberInt("20"),
+                                            "textSize": 20,
                                             "textColor": "#FFFFFF",
-                                            "marginLeft": NumberInt("20"),
-                                            "marginBot": NumberInt("2")
+                                            "marginLeft": 20,
+                                            "marginBot": 2
                                         },
                                         {
                                             "type": "TEXT",
@@ -1478,7 +1478,7 @@
                                             "width": "WRAP_CONTENT",
                                             "height": "WRAP_CONTENT",
                                             "name": "btnDone",
-                                            "textSize": NumberInt("12"),
+                                            "textSize": 12,
                                             "textColor": "#ffffff",
                                             "textStyle": "bold",
                                             "onClick": [
@@ -1501,7 +1501,7 @@
                                             "width": "WRAP_CONTENT",
                                             "height": "WRAP_CONTENT",
                                             "name": "btnHome",
-                                            "textSize": NumberInt("12"),
+                                            "textSize": 12,
                                             "textColor": "#ffffff",
                                             "textStyle": "bold",
                                             "visibility": "gone",
@@ -1535,25 +1535,25 @@
                                             "width": "MATCH_PARENT",
                                             "height": "WRAP_CONTENT",
                                             "background": "#ffffff",
-                                            "paddingLeft": NumberInt("16"),
-                                            "paddingRight": NumberInt("16"),
-                                            "paddingTop": NumberInt("8"),
-                                            "paddingBot": NumberInt("8"),
+                                            "paddingLeft": 16,
+                                            "paddingRight": 16,
+                                            "paddingTop": 8,
+                                            "paddingBot": 8,
                                             "gravity": "CENTER_VERTICAL",
-                                            "marginBot": NumberInt("2"),
+                                            "marginBot": 2,
                                             "child": [
                                                 {
                                                     "type": "VIEW",
-                                                    "width": NumberInt("50"),
-                                                    "height": NumberInt("30"),
-                                                    "marginRight": NumberInt("10"),
+                                                    "width": 50,
+                                                    "height": 30,
+                                                    "marginRight": 10,
                                                     "background": "$color",
                                                     "gravity": "LEFT",
                                                     "name": "color"
                                                 },
                                                 {
                                                     "type": "TEXT",
-                                                    "textSize": NumberInt("14"),
+                                                    "textSize": 14,
                                                     "name": "sku",
                                                     "width": "FILL_PARENT",
                                                     "height": "WRAP_CONTENT",
@@ -1563,14 +1563,14 @@
                                                 },
                                                 {
                                                     "type": "TEXT",
-                                                    "textSize": NumberInt("14"),
+                                                    "textSize": 14,
                                                     "name": "qty",
                                                     "width": "WRAP_CONTENT",
                                                     "height": "WRAP_CONTENT",
                                                     "label": "${qty} pcs",
                                                     "textColor": "#455a64",
                                                     "gravity": "RIGHT",
-                                                    "marginRight": NumberInt("5")
+                                                    "marginRight": 5
                                                 }
                                             ]
                                         }
@@ -2694,10 +2694,10 @@
                                     "height": "56",
                                     "gravity": "CENTER_VERTICAL",
                                     "background": "#02a8f3",
-                                    "paddingTop": NumberInt("14"),
-                                    "paddingBot": NumberInt("14"),
-                                    "paddingRight": NumberInt("16"),
-                                    "paddingLeft": NumberInt("16"),
+                                    "paddingTop": 14,
+                                    "paddingBot": 14,
+                                    "paddingRight": 16,
+                                    "paddingLeft": 16,
                                     "child": [
                                         {
                                             "type": "IMAGE",
@@ -2705,7 +2705,7 @@
                                             "width": "36",
                                             "height": "36",
                                             "name": "btnBackDeliveryDetail",
-                                            "textSize": NumberInt("12"),
+                                            "textSize": 12,
                                             "textColor": "#000000",
                                             "textStyle": "bold",
                                             "onClick": [
@@ -2721,10 +2721,10 @@
                                             "textStyle": "semiBold",
                                             "height": "56",
                                             "name": "titleDeliveryDetail",
-                                            "textSize": NumberInt("20"),
+                                            "textSize": 20,
                                             "textColor": "#FFFFFF",
-                                            "marginLeft": NumberInt("20"),
-                                            "marginBot": NumberInt("2")
+                                            "marginLeft": 20,
+                                            "marginBot": 2
                                         },
                                         {
                                             "type": "TEXT",
@@ -2732,7 +2732,7 @@
                                             "width": "WRAP_CONTENT",
                                             "height": "WRAP_CONTENT",
                                             "name": "btnDoneDeliveryDetail",
-                                            "textSize": NumberInt("12"),
+                                            "textSize": 12,
                                             "textColor": "#ffffff",
                                             "textStyle": "bold",
                                             "onClick": [
@@ -2754,7 +2754,7 @@
                                             "height": "WRAP_CONTENT",
                                             "name": "btnNextPage",
                                             "visibility": "gone",
-                                            "textSize": NumberInt("12"),
+                                            "textSize": 12,
                                             "textColor": "#ffffff",
                                             "textStyle": "bold",
                                             "onClick": [
@@ -2773,10 +2773,10 @@
                                     "height": "WRAP_CONTENT",
                                     "gravity": "CENTER_VERTICAL",
                                     "background": "#ffffff",
-                                    "paddingTop": NumberInt("16"),
-                                    "paddingBot": NumberInt("16"),
-                                    "paddingRight": NumberInt("16"),
-                                    "paddingLeft": NumberInt("16"),
+                                    "paddingTop": 16,
+                                    "paddingBot": 16,
+                                    "paddingRight": 16,
+                                    "paddingLeft": 16,
                                     "child": [
                                         {
                                             "name": "txtNameDeliveryDetail",
@@ -2789,7 +2789,7 @@
                                             "inputLabel": "Receiver Name",
                                             "label": "$task/taskTitle",
                                             "textColor": "#455a64",
-                                            "textSize": NumberInt("16"),
+                                            "textSize": 16,
                                             "textStyle": "bold"
                                         },
                                         {
@@ -2805,7 +2805,7 @@
                                             "name": "btnCallDeliveryDetail",
                                             "textColor": "#000000",
                                             "textStyle": "bold",
-                                            "marginLeft": NumberInt("8"),
+                                            "marginLeft": 8,
                                             "onClick": [
                                                 {
                                                     "make": "CALL",
@@ -2823,16 +2823,16 @@
                                     "height": "WRAP_CONTENT",
                                     "background": "#ffffff",
                                     "gravity": "center",
-                                    "paddingTop": NumberInt("16"),
-                                    "paddingBot": NumberInt("16"),
-                                    "paddingRight": NumberInt("16"),
-                                    "paddingLeft": NumberInt("16"),
-                                    "marginTop": NumberInt("2"),
+                                    "paddingTop": 16,
+                                    "paddingBot": 16,
+                                    "paddingRight": 16,
+                                    "paddingLeft": 16,
+                                    "marginTop": 2,
                                     "child": [
                                         {
                                             "name": "txtAddressDeliveryDetail",
                                             "type": "TEXT",
-                                            "textSize": NumberInt("14"),
+                                            "textSize": 14,
                                             "width": "FILL_PARENT",
                                             "height": "WRAP_CONTENT",
                                             "inputNewTask": true,
@@ -2848,7 +2848,7 @@
                                             "width": "36",
                                             "height": "36",
                                             "name": "btnLocationDeliveryDetail",
-                                            "marginLeft": NumberInt("8"),
+                                            "marginLeft": 8,
                                             "onClick": [
                                                 {
                                                     "make": "OPEN_MAP",
@@ -2861,16 +2861,16 @@
                                 },
                                 {
                                     "type": "TEXT",
-                                    "textSize": NumberInt("14"),
+                                    "textSize": 14,
                                     "width": "MATCH_PARENT",
                                     "height": "WRAP_CONTENT",
                                     "label": "Delivery Information",
                                     "textColor": "#455a64",
                                     "textStyle": "bold",
-                                    "paddingTop": NumberInt("16"),
-                                    "paddingBot": NumberInt("8"),
-                                    "paddingRight": NumberInt("16"),
-                                    "paddingLeft": NumberInt("16")
+                                    "paddingTop": 16,
+                                    "paddingBot": 8,
+                                    "paddingRight": 16,
+                                    "paddingLeft": 16
                                 },
                                 {
                                     "type": "LAYOUT_LINEAR_HORIZONTAL",
@@ -2878,11 +2878,11 @@
                                     "width": "MATCH_PARENT",
                                     "height": "56",
                                     "background": "#ffffff",
-                                    "paddingTop": NumberInt("14"),
-                                    "paddingBot": NumberInt("14"),
-                                    "paddingRight": NumberInt("16"),
-                                    "paddingLeft": NumberInt("16"),
-                                    "marginBot": NumberInt("1"),
+                                    "paddingTop": 14,
+                                    "paddingBot": 14,
+                                    "paddingRight": 16,
+                                    "paddingLeft": 16,
+                                    "marginBot": 1,
                                     "child": [
                                         {
                                             "type": "TEXT",
@@ -2890,7 +2890,7 @@
                                             "width": "FILL_PARENT",
                                             "height": "MATCH_PARENT",
                                             "name": "txtTitleServiceDeliveryDetail",
-                                            "textSize": NumberInt("16"),
+                                            "textSize": 16,
                                             "textColor": "#455a64"
                                         },
                                         {
@@ -2903,7 +2903,7 @@
                                             "requiredOnNewTask": true,
                                             "dataSource": "$task/UserVar/service",
                                             "inputLabel": "Service",
-                                            "textSize": NumberInt("16"),
+                                            "textSize": 16,
                                             "textColor": "#455a64"
                                         }
                                     ]
@@ -2914,11 +2914,11 @@
                                     "width": "MATCH_PARENT",
                                     "height": "56",
                                     "background": "#ffffff",
-                                    "paddingTop": NumberInt("14"),
-                                    "paddingBot": NumberInt("14"),
-                                    "paddingRight": NumberInt("16"),
-                                    "paddingLeft": NumberInt("16"),
-                                    "marginBot": NumberInt("1"),
+                                    "paddingTop": 14,
+                                    "paddingBot": 14,
+                                    "paddingRight": 16,
+                                    "paddingLeft": 16,
+                                    "marginBot": 1,
                                     "child": [
                                         {
                                             "type": "TEXT",
@@ -2926,7 +2926,7 @@
                                             "width": "FILL_PARENT",
                                             "height": "MATCH_PARENT",
                                             "name": "txtProductNameID",
-                                            "textSize": NumberInt("16"),
+                                            "textSize": 16,
                                             "textColor": "#455a64"
                                         },
                                         {
@@ -2939,7 +2939,7 @@
                                             "requiredOnNewTask": true,
                                             "dataSource": "$task/UserVar/ProductID",
                                             "inputLabel": "Product ID",
-                                            "textSize": NumberInt("16"),
+                                            "textSize": 16,
                                             "textColor": "#455a64"
                                         }
                                     ]
@@ -2950,11 +2950,11 @@
                                     "width": "MATCH_PARENT",
                                     "height": "56",
                                     "background": "#ffffff",
-                                    "paddingTop": NumberInt("14"),
-                                    "paddingBot": NumberInt("14"),
-                                    "paddingRight": NumberInt("16"),
-                                    "paddingLeft": NumberInt("16"),
-                                    "marginBot": NumberInt("1"),
+                                    "paddingTop": 14,
+                                    "paddingBot": 14,
+                                    "paddingRight": 16,
+                                    "paddingLeft": 16,
+                                    "marginBot": 1,
                                     "child": [
                                         {
                                             "type": "TEXT",
@@ -2962,7 +2962,7 @@
                                             "width": "FILL_PARENT",
                                             "height": "MATCH_PARENT",
                                             "name": "txtQuantityCustomDetail",
-                                            "textSize": NumberInt("16"),
+                                            "textSize": 16,
                                             "textColor": "#455a64"
                                         },
                                         {
@@ -2975,7 +2975,7 @@
                                             "requiredOnNewTask": true,
                                             "dataSource": "$task/UserVar/Quantity",
                                             "inputLabel": "Quantity",
-                                            "textSize": NumberInt("16"),
+                                            "textSize": 16,
                                             "textColor": "#455a64"
                                         }
                                     ]
@@ -2993,10 +2993,10 @@
                                     "inputNewTask": false,
                                     "dataSource": "$task/UserVar/ProductName",
                                     "inputLabel": "Product Name",
-                                    "paddingBot": NumberInt("16"),
-                                    "paddingTop": NumberInt("16"),
-                                    "paddingRight": NumberInt("16"),
-                                    "paddingLeft": NumberInt("16")
+                                    "paddingBot": 16,
+                                    "paddingTop": 16,
+                                    "paddingRight": 16,
+                                    "paddingLeft": 16
                                 }
                             ]
                         },
@@ -3159,10 +3159,10 @@
                                     "height": "56",
                                     "gravity": "CENTER_VERTICAL",
                                     "background": "#02a8f3",
-                                    "paddingTop": NumberInt("14"),
-                                    "paddingBot": NumberInt("14"),
-                                    "paddingRight": NumberInt("16"),
-                                    "paddingLeft": NumberInt("16"),
+                                    "paddingTop": 14,
+                                    "paddingBot": 14,
+                                    "paddingRight": 16,
+                                    "paddingLeft": 16,
                                     "child": [
                                         {
                                             "type": "IMAGE",
@@ -3184,10 +3184,10 @@
                                             "height": "56",
                                             "textStyle": "semiBold",
                                             "name": "txtTitleDeliveryProcess",
-                                            "textSize": NumberInt("20"),
+                                            "textSize": 20,
                                             "textColor": "#FFFFFF",
-                                            "marginLeft": NumberInt("20"),
-                                            "marginBot": NumberInt("2")
+                                            "marginLeft": 20,
+                                            "marginBot": 2
                                         },
                                         {
                                             "type": "TEXT",
@@ -3196,7 +3196,7 @@
                                             "height": "WRAP_CONTENT",
                                             "name": "btnBackToHome",
                                             "visibility": "gone",
-                                            "textSize": NumberInt("12"),
+                                            "textSize": 12,
                                             "textColor": "#ffffff",
                                             "textStyle": "bold",
                                             "conditions": [
@@ -3373,11 +3373,11 @@
                                             "width": "WRAP_CONTENT",
                                             "height": "MATCH_PARENT",
                                             "name": "txtNameDeliveryProcess",
-                                            "textSize": NumberInt("16"),
+                                            "textSize": 16,
                                             "textColor": "#455a64",
-                                            "marginLeft": NumberInt("16"),
-                                            "marginRight": NumberInt("16"),
-                                            "marginTop": NumberInt("16"),
+                                            "marginLeft": 16,
+                                            "marginRight": 16,
+                                            "marginTop": 16,
                                             "textStyle": "bold"
                                         },
                                         {
@@ -3386,11 +3386,11 @@
                                             "width": "WRAP_CONTENT",
                                             "height": "MATCH_PARENT",
                                             "name": "txtAWB",
-                                            "textSize": NumberInt("14"),
+                                            "textSize": 14,
                                             "textColor": "#455a64",
-                                            "marginLeft": NumberInt("16"),
-                                            "marginRight": NumberInt("16"),
-                                            "marginTop": NumberInt("8")
+                                            "marginLeft": 16,
+                                            "marginRight": 16,
+                                            "marginTop": 8
                                         },
                                         {
                                             "type": "TEXT",
@@ -3398,11 +3398,11 @@
                                             "width": "WRAP_CONTENT",
                                             "height": "MATCH_PARENT",
                                             "name": "txtAddressDeliveryProcess",
-                                            "textSize": NumberInt("14"),
+                                            "textSize": 14,
                                             "textColor": "#455a64",
-                                            "marginLeft": NumberInt("16"),
-                                            "marginRight": NumberInt("16"),
-                                            "marginTop": NumberInt("8")
+                                            "marginLeft": 16,
+                                            "marginRight": 16,
+                                            "marginTop": 8
                                         },
                                         {
                                             "type": "TEXT",
@@ -3410,11 +3410,11 @@
                                             "width": "WRAP_CONTENT",
                                             "height": "MATCH_PARENT",
                                             "name": "txtProductName",
-                                            "textSize": NumberInt("14"),
+                                            "textSize": 14,
                                             "textColor": "#455a64",
-                                            "marginLeft": NumberInt("16"),
-                                            "marginRight": NumberInt("16"),
-                                            "marginTop": NumberInt("8")
+                                            "marginLeft": 16,
+                                            "marginRight": 16,
+                                            "marginTop": 8
                                         },
                                         {
                                             "type": "TEXT",
@@ -3422,26 +3422,26 @@
                                             "width": "WRAP_CONTENT",
                                             "height": "MATCH_PARENT",
                                             "name": "txtQuantityCustom",
-                                            "textSize": NumberInt("14"),
+                                            "textSize": 14,
                                             "textColor": "#455a64",
-                                            "marginLeft": NumberInt("16"),
-                                            "marginRight": NumberInt("16"),
-                                            "marginTop": NumberInt("8")
+                                            "marginLeft": 16,
+                                            "marginRight": 16,
+                                            "marginTop": 8
                                         }
                                     ]
                                 },
                                 {
                                     "type": "TEXT",
-                                    "textSize": NumberInt("14"),
+                                    "textSize": 14,
                                     "width": "MATCH_PARENT",
                                     "height": "WRAP_CONTENT",
                                     "label": "Delivery Information",
                                     "textColor": "#455a64",
                                     "textStyle": "bold",
-                                    "paddingTop": NumberInt("16"),
-                                    "paddingBot": NumberInt("8"),
-                                    "paddingRight": NumberInt("16"),
-                                    "paddingLeft": NumberInt("16")
+                                    "paddingTop": 16,
+                                    "paddingBot": 8,
+                                    "paddingRight": 16,
+                                    "paddingLeft": 16
                                 },
                                 {
                                     "type": "COMBO_BOX",
@@ -3450,10 +3450,10 @@
                                     "label": "Delivery Status",
                                     "name": "cbStatusDeliveryProcess",
                                     "background": "#ffffff",
-                                    "paddingLeft": NumberInt("16"),
-                                    "paddingRight": NumberInt("16"),
-                                    "paddingTop": NumberInt("16"),
-                                    "paddingBot": NumberInt("16"),
+                                    "paddingLeft": 16,
+                                    "paddingRight": 16,
+                                    "paddingTop": 16,
+                                    "paddingBot": 16,
                                     "inputNewTask": false,
                                     "dataSource": "$task/UserVar/taskStatus",
                                     "inputLabel": "Delivery Status",
@@ -3461,7 +3461,7 @@
                                         {
                                             "label": "Success",
                                             "value": "COLF01",
-                                            "isDefault": NumberInt("1"),
+                                            "isDefault": 1,
                                             "conditions": [
                                                 {
                                                     "from": "$nameOfReceiver",
@@ -3508,10 +3508,10 @@
                                     "label": "Receiver",
                                     "name": "cbReceiverDelivery",
                                     "background": "#ffffff",
-                                    "paddingLeft": NumberInt("16"),
-                                    "paddingRight": NumberInt("16"),
-                                    "paddingTop": NumberInt("16"),
-                                    "paddingBot": NumberInt("16"),
+                                    "paddingLeft": 16,
+                                    "paddingRight": 16,
+                                    "paddingTop": 16,
+                                    "paddingBot": 16,
                                     "inputNewTask": false,
                                     "dataSource": "$task/UserVar/taskDetailStatus",
                                     "inputLabel": "Delivery Status Detail",
@@ -3519,7 +3519,7 @@
                                         {
                                             "label": "YANG BERSANGKUTAN",
                                             "value": "D01",
-                                            "isDefault": NumberInt("1"),
+                                            "isDefault": 1,
                                             "conditions": [
                                                 {
                                                     "from": "$signatureDeliveryProcess",
@@ -3670,10 +3670,10 @@
                                     "label": "Reason",
                                     "name": "cbReasonDelivery",
                                     "background": "#ffffff",
-                                    "paddingLeft": NumberInt("16"),
-                                    "paddingRight": NumberInt("16"),
-                                    "paddingTop": NumberInt("16"),
-                                    "paddingBot": NumberInt("16"),
+                                    "paddingLeft": 16,
+                                    "paddingRight": 16,
+                                    "paddingTop": 16,
+                                    "paddingBot": 16,
                                     "inputNewTask": false,
                                     "dataSource": "$task/UserVar/taskDetailStatus",
                                     "inputLabel": "Delivery Status Detail",
@@ -3681,7 +3681,7 @@
                                         {
                                             "label": "TRANSFER TO ANOTHER COURIER",
                                             "value": "BY",
-                                            "isDefault": NumberInt("1")
+                                            "isDefault": 1
                                         },
                                         {
                                             "label": "RETURN TO SHIPPER / RETURN TO RECEIVER",
@@ -3781,23 +3781,23 @@
                                     "inputNewTask": false,
                                     "dataSource": "$task/UserVar/nameOfReceiver",
                                     "inputLabel": "Receiver Name",
-                                    "paddingBot": NumberInt("16"),
-                                    "paddingTop": NumberInt("16"),
-                                    "paddingRight": NumberInt("16"),
-                                    "paddingLeft": NumberInt("16")
+                                    "paddingBot": 16,
+                                    "paddingTop": 16,
+                                    "paddingRight": 16,
+                                    "paddingLeft": 16
                                 },
                                 {
                                     "type": "TEXT",
-                                    "textSize": NumberInt("14"),
+                                    "textSize": 14,
                                     "width": "MATCH_PARENT",
                                     "height": "WRAP_CONTENT",
                                     "label": "Proof of Delivery",
                                     "textColor": "#455a64",
                                     "textStyle": "bold",
-                                    "paddingTop": NumberInt("16"),
-                                    "paddingBot": NumberInt("8"),
-                                    "paddingRight": NumberInt("16"),
-                                    "paddingLeft": NumberInt("16")
+                                    "paddingTop": 16,
+                                    "paddingBot": 8,
+                                    "paddingRight": 16,
+                                    "paddingLeft": 16
                                 },
                                 {
                                     "name": "signatureDeliveryProcess",
@@ -3853,10 +3853,10 @@
                                     "height": "56",
                                     "gravity": "CENTER_VERTICAL",
                                     "background": "#02a8f3",
-                                    "paddingTop": NumberInt("14"),
-                                    "paddingBot": NumberInt("14"),
-                                    "paddingRight": NumberInt("16"),
-                                    "paddingLeft": NumberInt("16"),
+                                    "paddingTop": 14,
+                                    "paddingBot": 14,
+                                    "paddingRight": 16,
+                                    "paddingLeft": 16,
                                     "child": [
                                         {
                                             "type": "IMAGE",
@@ -3875,10 +3875,10 @@
                                             "label": "Load Vehicle Details",
                                             "width": "FILL_PARENT",
                                             "height": "WRAP_CONTENT",
-                                            "textSize": NumberInt("20"),
+                                            "textSize": 20,
                                             "textColor": "#FFFFFF",
-                                            "marginLeft": NumberInt("20"),
-                                            "marginBot": NumberInt("2")
+                                            "marginLeft": 20,
+                                            "marginBot": 2
                                         },
                                         {
                                             "type": "TEXT",
@@ -3886,7 +3886,7 @@
                                             "width": "WRAP_CONTENT",
                                             "height": "WRAP_CONTENT",
                                             "name": "btnStart",
-                                            "textSize": NumberInt("12"),
+                                            "textSize": 12,
                                             "textColor": "#ffffff",
                                             "textStyle": "bold",
                                             "onClick": [
@@ -3907,7 +3907,7 @@
                                             "width": "WRAP_CONTENT",
                                             "height": "WRAP_CONTENT",
                                             "name": "btnNext",
-                                            "textSize": NumberInt("12"),
+                                            "textSize": 12,
                                             "textColor": "#ffffff",
                                             "textStyle": "bold",
                                             "visibility": "gone",
@@ -3932,27 +3932,27 @@
                                             "width": "MATCH_PARENT",
                                             "height": "WRAP_CONTENT",
                                             "background": "#ffffff",
-                                            "paddingLeft": NumberInt("16"),
-                                            "paddingRight": NumberInt("16"),
-                                            "paddingTop": NumberInt("8"),
-                                            "paddingBot": NumberInt("8"),
+                                            "paddingLeft": 16,
+                                            "paddingRight": 16,
+                                            "paddingTop": 8,
+                                            "paddingBot": 8,
                                             "gravity": "center",
-                                            "marginBot": NumberInt("2"),
+                                            "marginBot": 2,
                                             "child": [
                                                 {
                                                     "type": "TEXT",
-                                                    "textSize": NumberInt("16"),
+                                                    "textSize": 16,
                                                     "name": "listItemTitle",
                                                     "width": "MATCH_PARENT",
                                                     "height": "WRAP_CONTENT",
                                                     "label": "$listItemTitle",
                                                     "textColor": "#455a64",
                                                     "textStyle": "bold",
-                                                    "marginBot": NumberInt("8")
+                                                    "marginBot": 8
                                                 },
                                                 {
                                                     "type": "TEXT",
-                                                    "textSize": NumberInt("14"),
+                                                    "textSize": 14,
                                                     "name": "listItemSubTitle",
                                                     "width": "MATCH_PARENT",
                                                     "height": "WRAP_CONTENT",
@@ -3961,7 +3961,7 @@
                                                 },
                                                 {
                                                     "type": "TEXT",
-                                                    "textSize": NumberInt("14"),
+                                                    "textSize": 14,
                                                     "name": "listItemContent",
                                                     "width": "MATCH_PARENT",
                                                     "height": "WRAP_CONTENT",
@@ -3984,25 +3984,25 @@
                                             "width": "MATCH_PARENT",
                                             "height": "WRAP_CONTENT",
                                             "background": "#ffffff",
-                                            "paddingLeft": NumberInt("16"),
-                                            "paddingRight": NumberInt("16"),
-                                            "paddingTop": NumberInt("8"),
-                                            "paddingBot": NumberInt("8"),
+                                            "paddingLeft": 16,
+                                            "paddingRight": 16,
+                                            "paddingTop": 8,
+                                            "paddingBot": 8,
                                             "gravity": "CENTER_VERTICAL",
-                                            "marginBot": NumberInt("2"),
+                                            "marginBot": 2,
                                             "child": [
                                                 {
                                                     "type": "VIEW",
-                                                    "width": NumberInt("50"),
-                                                    "height": NumberInt("30"),
-                                                    "marginRight": NumberInt("10"),
+                                                    "width": 50,
+                                                    "height": 30,
+                                                    "marginRight": 10,
                                                     "background": "$color",
                                                     "gravity": "LEFT",
                                                     "name": "color"
                                                 },
                                                 {
                                                     "type": "TEXT",
-                                                    "textSize": NumberInt("14"),
+                                                    "textSize": 14,
                                                     "name": "sku",
                                                     "width": "FILL_PARENT",
                                                     "height": "WRAP_CONTENT",
@@ -4012,14 +4012,14 @@
                                                 },
                                                 {
                                                     "type": "TEXT",
-                                                    "textSize": NumberInt("14"),
+                                                    "textSize": 14,
                                                     "name": "qty",
                                                     "width": "WRAP_CONTENT",
                                                     "height": "WRAP_CONTENT",
                                                     "label": "${qty} pcs",
                                                     "textColor": "#455a64",
                                                     "gravity": "RIGHT",
-                                                    "marginRight": NumberInt("5")
+                                                    "marginRight": 5
                                                 }
                                             ]
                                         }
@@ -4056,10 +4056,10 @@
                                     "height": "56",
                                     "gravity": "CENTER_VERTICAL",
                                     "background": "#02a8f3",
-                                    "paddingTop": NumberInt("14"),
-                                    "paddingBot": NumberInt("14"),
-                                    "paddingRight": NumberInt("16"),
-                                    "paddingLeft": NumberInt("16"),
+                                    "paddingTop": 14,
+                                    "paddingBot": 14,
+                                    "paddingRight": 16,
+                                    "paddingLeft": 16,
                                     "child": [
                                         {
                                             "type": "IMAGE",
@@ -4078,10 +4078,10 @@
                                             "label": "Load Vehicle Details",
                                             "width": "FILL_PARENT",
                                             "height": "WRAP_CONTENT",
-                                            "textSize": NumberInt("20"),
+                                            "textSize": 20,
                                             "textColor": "#FFFFFF",
-                                            "marginLeft": NumberInt("20"),
-                                            "marginBot": NumberInt("2")
+                                            "marginLeft": 20,
+                                            "marginBot": 2
                                         },
                                         {
                                             "type": "TEXT",
@@ -4089,7 +4089,7 @@
                                             "width": "WRAP_CONTENT",
                                             "height": "WRAP_CONTENT",
                                             "name": "btnDone",
-                                            "textSize": NumberInt("12"),
+                                            "textSize": 12,
                                             "textColor": "#ffffff",
                                             "textStyle": "bold",
                                             "onClick": [
@@ -4112,7 +4112,7 @@
                                             "width": "WRAP_CONTENT",
                                             "height": "WRAP_CONTENT",
                                             "name": "btnHome",
-                                            "textSize": NumberInt("12"),
+                                            "textSize": 12,
                                             "textColor": "#ffffff",
                                             "textStyle": "bold",
                                             "visibility": "gone",
@@ -4146,25 +4146,25 @@
                                             "width": "MATCH_PARENT",
                                             "height": "WRAP_CONTENT",
                                             "background": "#ffffff",
-                                            "paddingLeft": NumberInt("16"),
-                                            "paddingRight": NumberInt("16"),
-                                            "paddingTop": NumberInt("8"),
-                                            "paddingBot": NumberInt("8"),
+                                            "paddingLeft": 16,
+                                            "paddingRight": 16,
+                                            "paddingTop": 8,
+                                            "paddingBot": 8,
                                             "gravity": "CENTER_VERTICAL",
-                                            "marginBot": NumberInt("2"),
+                                            "marginBot": 2,
                                             "child": [
                                                 {
                                                     "type": "VIEW",
-                                                    "width": NumberInt("50"),
-                                                    "height": NumberInt("30"),
-                                                    "marginRight": NumberInt("10"),
+                                                    "width": 50,
+                                                    "height": 30,
+                                                    "marginRight": 10,
                                                     "background": "$color",
                                                     "gravity": "LEFT",
                                                     "name": "color"
                                                 },
                                                 {
                                                     "type": "TEXT",
-                                                    "textSize": NumberInt("14"),
+                                                    "textSize": 14,
                                                     "name": "sku",
                                                     "width": "FILL_PARENT",
                                                     "height": "WRAP_CONTENT",
@@ -4174,14 +4174,14 @@
                                                 },
                                                 {
                                                     "type": "TEXT",
-                                                    "textSize": NumberInt("14"),
+                                                    "textSize": 14,
                                                     "name": "qty",
                                                     "width": "WRAP_CONTENT",
                                                     "height": "WRAP_CONTENT",
                                                     "label": "${qty} pcs",
                                                     "textColor": "#455a64",
                                                     "gravity": "RIGHT",
-                                                    "marginRight": NumberInt("5")
+                                                    "marginRight": 5
                                                 }
                                             ]
                                         }
@@ -8304,6 +8304,8 @@
         }
     ],
     "users": [
-        
+        {
+            "email": "admin@telkomdemo.com"
+        }
     ]
 }
